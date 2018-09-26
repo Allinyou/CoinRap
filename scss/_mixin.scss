@@ -1,0 +1,10 @@
+@mixin ellipsis() {
+    // width: $w;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+@mixin borderradius($border-radius){
+    border-radius: $border-radius; 
+} 

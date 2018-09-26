@@ -1,0 +1,126 @@
+@charset "UTF-8";
+body, form, input, textarea, select, option, ul,
+ol, li, dt, dd, p, pre, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+::placeholder {
+  color: #999999;
+}
+
+body {
+  font-family: helvetica, arial, verdana, tahoma, sans-serif;
+  font-size: 16px;
+  background-color: #fcfcfc;
+  color: #333;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/**.clearfix {visibility: hidden;display: block;font-size: 0;content:" ";clear: both;height: 0;}**/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+header {
+  height: 100px;
+  background: #131830;
+}
+
+.navWidth {
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  line-height: 100px;
+  position: relative;
+}
+
+.logoImg {
+  float: left;
+  display: block;
+  width: 300px;
+  height: 100px;
+  background: url(../img/global/logo.png) no-repeat center;
+}
+
+.logoImg a {
+  display: block;
+  float: left;
+  width: 300px;
+  height: 100px;
+}
+
+.changeImg {
+  float: right;
+  width: 90px;
+  height: 100px;
+  background: url(../img/nav/Chinese.png) no-repeat center;
+  margin-left: 20px;
+}
+
+header a {
+  font-size: 16px;
+  color: #75849C;
+  margin-right: 2%;
+}
+
+header a:hover {
+  color: #FFFFFF;
+}
+
+header .currentPage {
+  color: #FFFFFF;
+}
+
+.navHeight {
+  text-align: right;
+  float: right;
+  width: 780px;
+}
+
+/*底部样式*/
+.footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background: #202A39;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+/*导航*/
+header.channel {
+  background: url(../img/channel/bg-nav-channel.png) top center #131830;
+}
+
+/*折叠菜单展开按钮*/
+.show {
+  background: url(../img/nav/btn-nav-hover.png) no-repeat center;
+}
