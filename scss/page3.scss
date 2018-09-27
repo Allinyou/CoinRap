@@ -1,7 +1,257 @@
  @import "_index.scss";
 
 section {
-    height:540px;
+    height:1605px;
+    // overflow: hidden;
     position: relative;
-	background: #131830 url(../img/common/bg-main.png) no-repeat top center;    
+    background: #161b39 url(../img/common/bg-main.png) no-repeat top center;  
+    .content-wrap{
+        width: 1088px;
+        margin:0 auto;
+        .btns-wrap{
+            padding-top:40px;
+            a{
+                font-size:0;
+            }
+            .buy,.sell{
+                // display: block;
+                width: 520px;
+                height: 70px;
+            }
+            .buy{
+                background: url(..img/page3/sell_btn.png) no-repeat top left/100%;
+            }
+            .sell{
+                float: right;
+                // margin-left:47px;
+            }
+        }
+        .list{
+            margin-top:52px;
+            .list-item{
+                width: 520px;
+                height: 518px;
+                float: left;
+                margin-bottom:68px;
+                &:nth-child(2n){
+                    margin-left:48px;
+                }
+                .item-top{
+                    height: 76px;
+                    background-color:#3744aa; 
+                    color:#fff;
+                    text-align: center;
+                    line-height: 76px;
+                    font-size:22px;
+                    img{
+                        width: 45px;
+                        height: 45px;
+                        vertical-align: middle;
+                    }
+                }
+                .item-bottom{
+                    box-sizing: border-box;
+                    height: 442px;
+                    background-color: #283176;
+                    
+                    color:#fff;
+                    font-size:14px;
+                    .bottom-item{
+                        background-color: #20285e;
+                        height: 140px;
+                        padding:10px 0;
+                        box-sizing: border-box;
+                        margin-bottom: 10px;
+                        &:last-child{
+                            margin:0;
+                        }
+                    }
+                }
+            }
+            .list-item-buy-sell{               
+                .item-bottom{
+                    padding:0 20px;
+                    overflow-y: scroll;
+                    .bottom-item{ 
+                        .item-left{
+                            width: 80px;
+                            height: 100%;
+                            float: left;
+                            .left-title{
+                                margin-top:20px;
+                                height: 80px;
+                                text-align: center;
+                                line-height: 80px;
+                                border-right:1px solid #3744aa;
+                            }
+                        }
+                        .item-right-box{
+                            .right-item{
+                                padding-left: 100px;
+                                height: 40px;
+                                line-height: 40px;  
+                            }
+                            .right-top{
+                                span{
+                                    span{
+                                        color:#05e0e2;
+                                    }
+                                }
+                                img{
+                                    margin-right:10px;
+                                    width: 40px;
+                                    height: 40px;
+                                    float:right;
+                                    vertical-align: middle;
+                                }
+                            }
+                            .right-bottom{
+                                color:#05e0e2;
+                                span{
+                                    margin-right:40px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .list-item-release-history{
+                .item-bottom{
+                    background-color: #283176;
+                    .tab-navs{
+                        border-bottom:1px solid #20285e;
+                        height: 40px;
+                        .tab{
+                            float: left;
+                            width: 100px;
+                            height: 100%;
+                            line-height: 40px;
+                            text-align: center;
+                        }
+                        .tab1{
+                            margin-left:36px;
+                        }
+                        .tab3,.tab4{
+                            width: 90px;
+                        }
+                        .tab5{
+                            width: 96px;
+                        }
+                    }
+                    .release-box{
+                        height: 401px;
+                        overflow-y: scroll;
+                        .release-item{
+                            height: 60px;
+                            border-bottom:1px solid #20285e;
+                            img{
+                                float: left;
+                                vertical-align: middle;
+                                width: 24px;
+                                height: 24px;
+                                margin-left:12px;
+                                margin-top:18px;
+                            }
+                            div{
+                                height: 100%;
+                                float: left;
+                                padding-top:11px;
+                                box-sizing: border-box;
+                                text-align: right;
+                                span{
+                                    display: block;
+                                }
+                            }
+                            .goal{
+                                width: 80px;
+                                color:#05e0e2;
+                                span:last-child{
+                                    margin-top:5px;
+                                }
+                            }
+                            .order-total-price{
+                                width: 98px;
+                                span:last-child{
+                                    margin-top:5px;
+                                }
+                            }
+                            .price{
+                                width: 90px;
+                            }
+                            .service-price{
+                                width: 90px;
+                                color:#05e0e2;
+                                span:last-child{
+                                    margin-top:5px;
+                                }
+                            }
+                            .state{
+                                width: 98px;
+                            }
+                        }
+                    }
+                }  
+            }
+            .list-item-receive-history{
+                .item-bottom{
+                    background-color: #283176;
+                    .receive-navs{
+                        border-bottom:1px solid #20285e;
+                        height: 40px;
+                        .receive-tab{
+                            float: left;
+                            width: 200px;
+                            height: 100%;
+                            line-height: 40px;   
+                        }
+                        .receive-tab1{
+                            text-align: right;
+                        }
+                        .receive-tab2{
+                            width:170px;
+                            text-align: center;
+                        }
+                        .receive-tab3{
+                            width: 150px;
+                        }
+                    }
+                    .receive-box{
+                        height: 401px;
+                        overflow-y: scroll;
+                        .receive-item{
+                            height: 40px;
+                            border-bottom:1px solid #20285e;
+                            img{
+                                float: left;
+                                vertical-align: middle;
+                                width: 24px;
+                                height: 24px;
+                                margin-left:12px;
+                                margin-top:8px;
+                            }
+                            div{
+                                float: left;
+                                height: 100%;
+                                line-height: 40px;
+                            }
+                            .receive-order-price{
+                                width: 165px;
+                                text-align: right;
+                            }
+                            .receive-price{
+                                text-align: right;
+                                width: 105px;
+                            }
+                            .receive-time{
+                                width: 120px;
+                                margin-left:65px;
+                                color:#05e0e2;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }  
 }       
