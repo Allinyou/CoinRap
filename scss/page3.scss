@@ -12,18 +12,21 @@
                 font-size:0;
                 display: block;
                 width: 520px;
+                height: 70px;
                 float: left;
-                img{
-                    width: 100%;
-                }
+            }
+            .buy{
+                background:url(../img/page3/buy_btn.png) no-repeat top left/100% auto; 
             }
             .sell{
                 float: right;
+                background:url(../img/page3/sell_btn.png) no-repeat top left/100% auto;
                 // margin-left:47px;
             }
         }
         .list{
             margin-top:52px;
+            overflow: hidden;
             .list-item{
                 width: 520px;
                 height: 518px;
@@ -261,13 +264,215 @@
     }
     .list-content{
         height: auto;
-        padding:0 0.3rem;
+        padding:0 0.35rem;
         .content-wrap{
             width: 100%;
             .btns-wrap{
                 .buy,.sell{
                     width: 50%;
+                    height: 0.9rem;
                 } 
+                .buy{
+                    background-image: url(../img/page3/buy_btn_h5.png);
+                }
+                .sell{
+                    background-image: url(../img/page3/sell_btn_h5.png);
+                }
+            }
+            .list{
+                margin-top:0.4rem;
+                .list-item{
+                    height: 6.5rem;
+                    width: 100%;
+                    margin-bottom:0.55rem;
+                    &:nth-child(2n){
+                        margin-left:0;
+                    }
+                    .item-top{
+                        height: 1rem;
+                        line-height: 1rem;
+                        font-size:0.3rem;
+                        img{
+                            width: 0.56rem;
+                            height: 0.56rem;
+                        }
+                    }
+                    .item-bottom{
+                        height: 5.5rem;
+                        .bottom-item{
+                            padding:0.12rem 0;
+                            height: 1.74rem;
+                        }
+                    }
+                }
+                .list-item-buy-sell{               
+                    .item-bottom{
+                        padding:0 0.35rem;
+                        .bottom-item{ 
+                            .item-left{
+                                width: 1.1rem;
+                                height: 100%;
+                                float: left;
+                                .left-title{
+                                    margin-top:0.12rem;
+                                    height: 1.26rem;
+                                    text-align: center;
+                                    line-height: 1.26rem;
+                                    border-right:1px solid #3744aa;
+                                }
+                            }
+                            .item-right-box{
+                                .right-item{
+                                    padding-left: 1.3rem;
+                                    height: 0.5rem;
+                                    line-height: 0.5rem;  
+                                }
+                                .right-top{
+                                    span{
+                                        span{
+                                            color:#05e0e2;
+                                        }
+                                    }
+                                    img{
+                                        margin-right:0.12rem;
+                                        width: 0.5rem;
+                                        height: 0.5rem;
+                                    }
+                                }
+                                .right-bottom{
+                                    span{
+                                        margin-right:0.3rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .list-item-release-history{
+                    .item-bottom{
+                        background-color: #283176;
+                        .tab-navs{
+                            border-bottom:1px solid #20285e;
+                            height: 0.54rem;
+                            .tab{
+                                float: left;
+                                width: 1.28rem;
+                                height: 100%;
+                                line-height: 0.54rem;
+                                text-align: center;
+                            }
+                            .tab1{
+                                margin-left:0.46rem;
+                            }
+                            .tab3,.tab4{
+                                width: 1.2rem;
+                            }
+                        }
+                        .release-box{
+                            height: 4.95rem;
+                            .release-item{
+                                height: 0.8rem;
+                                img{
+                                    float: left;
+                                    vertical-align: middle;
+                                    width: 0.28rem;
+                                    height: 0.28rem;
+                                    margin-left:0.18rem;
+                                    margin-top:0.26rem;
+                                }
+                                div{
+                                    padding-top:0.16rem;
+                                }
+                                .goal{
+                                    width: 1.2rem;
+                                    color:#05e0e2;
+                                    // span:last-child{
+                                    //     margin-top:5px;
+                                    // }
+                                }
+                                .order-total-price{
+                                    width: 1rem;
+                                    // span:last-child{
+                                    //     margin-top:5px;
+                                    // }
+                                }
+                                .price{
+                                    width: 90px;
+                                }
+                                .service-price{
+                                    width: 90px;
+                                    color:#05e0e2;
+                                    // span:last-child{
+                                    //     margin-top:5px;
+                                    // }
+                                }
+                                .state{
+                                    width: 98px;
+                                }
+                            }
+                        }
+                    }  
+                }
+                .list-item-receive-history{
+                    .item-bottom{
+                        background-color: #283176;
+                        .receive-navs{
+                            border-bottom:1px solid #20285e;
+                            height: 40px;
+                            .receive-tab{
+                                float: left;
+                                width: 200px;
+                                height: 100%;
+                                line-height: 40px;   
+                            }
+                            .receive-tab1{
+                                text-align: right;
+                            }
+                            .receive-tab2{
+                                width:170px;
+                                text-align: center;
+                            }
+                            .receive-tab3{
+                                width: 150px;
+                            }
+                        }
+                        .receive-box{
+                            height: 401px;
+                            overflow-y: scroll;
+                            .receive-item{
+                                height: 40px;
+                                border-bottom:1px solid #20285e;
+                                img{
+                                    float: left;
+                                    vertical-align: middle;
+                                    width: 24px;
+                                    height: 24px;
+                                    margin-left:12px;
+                                    margin-top:8px;
+                                }
+                                div{
+                                    float: left;
+                                    height: 100%;
+                                    line-height: 40px;
+                                }
+                                .receive-order-price{
+                                    width: 165px;
+                                    text-align: right;
+                                }
+                                .receive-price{
+                                    text-align: right;
+                                    width: 105px;
+                                }
+                                .receive-time{
+                                    width: 120px;
+                                    margin-left:65px;
+                                    color:#05e0e2;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
             }
         }
     }    

@@ -25,19 +25,22 @@
   font-size: 0;
   display: block;
   width: 520px;
+  height: 70px;
   float: left;
 }
 
-.list-content .content-wrap .btns-wrap .buy img, .list-content .content-wrap .btns-wrap .sell img {
-  width: 100%;
+.list-content .content-wrap .btns-wrap .buy {
+  background: url(../img/page3/buy_btn.png) no-repeat top left/100% auto;
 }
 
 .list-content .content-wrap .btns-wrap .sell {
   float: right;
+  background: url(../img/page3/sell_btn.png) no-repeat top left/100% auto;
 }
 
 .list-content .content-wrap .list {
   margin-top: 52px;
+  overflow: hidden;
 }
 
 .list-content .content-wrap .list .list-item {
@@ -304,12 +307,188 @@
   }
   .list-content {
     height: auto;
-    padding: 0 0.3rem;
+    padding: 0 0.35rem;
   }
   .list-content .content-wrap {
     width: 100%;
   }
   .list-content .content-wrap .btns-wrap .buy, .list-content .content-wrap .btns-wrap .sell {
     width: 50%;
+    height: 0.9rem;
+  }
+  .list-content .content-wrap .btns-wrap .buy {
+    background-image: url(../img/page3/buy_btn_h5.png);
+  }
+  .list-content .content-wrap .btns-wrap .sell {
+    background-image: url(../img/page3/sell_btn_h5.png);
+  }
+  .list-content .content-wrap .list {
+    margin-top: 0.4rem;
+  }
+  .list-content .content-wrap .list .list-item {
+    height: 6.5rem;
+    width: 100%;
+    margin-bottom: 0.55rem;
+  }
+  .list-content .content-wrap .list .list-item:nth-child(2n) {
+    margin-left: 0;
+  }
+  .list-content .content-wrap .list .list-item .item-top {
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.3rem;
+  }
+  .list-content .content-wrap .list .list-item .item-top img {
+    width: 0.56rem;
+    height: 0.56rem;
+  }
+  .list-content .content-wrap .list .list-item .item-bottom {
+    height: 5.5rem;
+  }
+  .list-content .content-wrap .list .list-item .item-bottom .bottom-item {
+    padding: 0.12rem 0;
+    height: 1.74rem;
+  }
+  .list-content .content-wrap .list .list-item-buy-sell .item-bottom {
+    padding: 0 0.35rem;
+  }
+  .list-content .content-wrap .list .list-item-buy-sell .item-bottom .bottom-item .item-left {
+    width: 1.1rem;
+    height: 100%;
+    float: left;
+  }
+  .list-content .content-wrap .list .list-item-buy-sell .item-bottom .bottom-item .item-left .left-title {
+    margin-top: 0.12rem;
+    height: 1.26rem;
+    text-align: center;
+    line-height: 1.26rem;
+    border-right: 1px solid #3744aa;
+  }
+  .list-content .content-wrap .list .list-item-buy-sell .item-bottom .bottom-item .item-right-box .right-item {
+    padding-left: 1.3rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+  }
+  .list-content .content-wrap .list .list-item-buy-sell .item-bottom .bottom-item .item-right-box .right-top span span {
+    color: #05e0e2;
+  }
+  .list-content .content-wrap .list .list-item-buy-sell .item-bottom .bottom-item .item-right-box .right-top img {
+    margin-right: 0.12rem;
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+  .list-content .content-wrap .list .list-item-buy-sell .item-bottom .bottom-item .item-right-box .right-bottom span {
+    margin-right: 0.3rem;
+  }
+  .list-content .content-wrap .list .list-item-release-history .item-bottom {
+    background-color: #283176;
+  }
+  .list-content .content-wrap .list .list-item-release-history .item-bottom .tab-navs {
+    border-bottom: 1px solid #20285e;
+    height: 0.54rem;
+  }
+  .list-content .content-wrap .list .list-item-release-history .item-bottom .tab-navs .tab {
+    float: left;
+    width: 1.28rem;
+    height: 100%;
+    line-height: 0.54rem;
+    text-align: center;
+  }
+  .list-content .content-wrap .list .list-item-release-history .item-bottom .tab-navs .tab1 {
+    margin-left: 0.46rem;
+  }
+  .list-content .content-wrap .list .list-item-release-history .item-bottom .tab-navs .tab3, .list-content .content-wrap .list .list-item-release-history .item-bottom .tab-navs .tab4 {
+    width: 1.2rem;
+  }
+  .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box {
+    height: 4.95rem;
+  }
+  .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box .release-item {
+    height: 0.8rem;
+  }
+  .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box .release-item img {
+    float: left;
+    vertical-align: middle;
+    width: 0.28rem;
+    height: 0.28rem;
+    margin-left: 0.18rem;
+    margin-top: 0.26rem;
+  }
+  .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box .release-item div {
+    padding-top: 0.16rem;
+  }
+  .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box .release-item .goal {
+    width: 1.2rem;
+    color: #05e0e2;
+  }
+  .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box .release-item .order-total-price {
+    width: 1rem;
+  }
+  .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box .release-item .price {
+    width: 90px;
+  }
+  .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box .release-item .service-price {
+    width: 90px;
+    color: #05e0e2;
+  }
+  .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box .release-item .state {
+    width: 98px;
+  }
+  .list-content .content-wrap .list .list-item-receive-history .item-bottom {
+    background-color: #283176;
+  }
+  .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-navs {
+    border-bottom: 1px solid #20285e;
+    height: 40px;
+  }
+  .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-navs .receive-tab {
+    float: left;
+    width: 200px;
+    height: 100%;
+    line-height: 40px;
+  }
+  .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-navs .receive-tab1 {
+    text-align: right;
+  }
+  .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-navs .receive-tab2 {
+    width: 170px;
+    text-align: center;
+  }
+  .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-navs .receive-tab3 {
+    width: 150px;
+  }
+  .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-box {
+    height: 401px;
+    overflow-y: scroll;
+  }
+  .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-box .receive-item {
+    height: 40px;
+    border-bottom: 1px solid #20285e;
+  }
+  .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-box .receive-item img {
+    float: left;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+    margin-top: 8px;
+  }
+  .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-box .receive-item div {
+    float: left;
+    height: 100%;
+    line-height: 40px;
+  }
+  .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-box .receive-item .receive-order-price {
+    width: 165px;
+    text-align: right;
+  }
+  .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-box .receive-item .receive-price {
+    text-align: right;
+    width: 105px;
+  }
+  .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-box .receive-item .receive-time {
+    width: 120px;
+    margin-left: 65px;
+    color: #05e0e2;
   }
 }
