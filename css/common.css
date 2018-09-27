@@ -124,3 +124,18 @@ header.channel {
 .show {
   background: url(../img/nav/btn-nav-hover.png) no-repeat center;
 }
+
+.list-content, .buy-content {
+  padding-top: 40px;
+  position: relative;
+  background: #161b39 url(../img/common/bg-main.png) no-repeat top center;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 0.28rem;
+  }
+  .list-content {
+    padding-top: 0;
+  }
+}

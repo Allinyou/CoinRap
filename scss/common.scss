@@ -101,4 +101,22 @@ header.channel{
 }
 
 
+// 列表页、买入内容区域
+.list-content,.buy-content {
+	padding-top:40px;
+    position: relative;
+	background: #161b39 url(../img/common/bg-main.png) no-repeat top center; 
+}
+
+
+@media screen and (max-width:480px) {
+	body{
+		font-size:0.28rem;
+	}
+	.list-content{
+		padding-top:0;
+	}
+}
+
+
 	  

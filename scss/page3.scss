@@ -1,25 +1,21 @@
  @import "_index.scss";
 
-section {
+.list-content {
     height:1605px;
-    // overflow: hidden;
-    position: relative;
-    background: #161b39 url(../img/common/bg-main.png) no-repeat top center;  
+    // overflow: hidden; 
     .content-wrap{
         width: 1088px;
         margin:0 auto;
         .btns-wrap{
-            padding-top:40px;
-            a{
-                font-size:0;
-            }
+            overflow: hidden;
             .buy,.sell{
-                // display: block;
+                font-size:0;
+                display: block;
                 width: 520px;
-                height: 70px;
-            }
-            .buy{
-                background: url(..img/page3/sell_btn.png) no-repeat top left/100%;
+                float: left;
+                img{
+                    width: 100%;
+                }
             }
             .sell{
                 float: right;
@@ -254,4 +250,25 @@ section {
             }
         }
     }  
-}       
+} 
+
+@media screen and (max-width:480px){
+    .navWidth{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    .list-content{
+        height: auto;
+        padding:0 0.3rem;
+        .content-wrap{
+            width: 100%;
+            .btns-wrap{
+                .buy,.sell{
+                    width: 50%;
+                } 
+            }
+        }
+    }    
+}
