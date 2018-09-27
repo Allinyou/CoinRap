@@ -344,6 +344,7 @@
   }
   .list-content .content-wrap .list .list-item .item-bottom {
     height: 5.5rem;
+    font-size: 0.28rem;
   }
   .list-content .content-wrap .list .list-item .item-bottom .bottom-item {
     padding: 0.12rem 0;
@@ -391,7 +392,7 @@
     float: left;
     width: 1.28rem;
     height: 100%;
-    line-height: 0.54rem;
+    line-height: 0.55rem;
     text-align: center;
   }
   .list-content .content-wrap .list .list-item-release-history .item-bottom .tab-navs .tab1 {
@@ -409,86 +410,89 @@
   .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box .release-item img {
     float: left;
     vertical-align: middle;
-    width: 0.28rem;
-    height: 0.28rem;
+    width: 0.4rem;
+    height: 0.4rem;
     margin-left: 0.18rem;
-    margin-top: 0.26rem;
+    margin-top: 0.2rem;
   }
   .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box .release-item div {
-    padding-top: 0.16rem;
+    padding-top: 0.1rem;
   }
   .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box .release-item .goal {
-    width: 1.2rem;
+    width: 1.1rem;
     color: #05e0e2;
+  }
+  .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box .release-item .goal span:last-child {
+    margin-top: 0;
   }
   .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box .release-item .order-total-price {
-    width: 1rem;
+    width: 1.3rem;
+  }
+  .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box .release-item .order-total-price span:last-child {
+    margin-top: 0;
   }
   .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box .release-item .price {
-    width: 90px;
+    width: 1.1rem;
   }
   .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box .release-item .service-price {
-    width: 90px;
+    width: 1.14rem;
     color: #05e0e2;
   }
-  .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box .release-item .state {
-    width: 98px;
+  .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box .release-item .service-price span:last-child {
+    margin-top: 0;
   }
-  .list-content .content-wrap .list .list-item-receive-history .item-bottom {
-    background-color: #283176;
+  .list-content .content-wrap .list .list-item-release-history .item-bottom .release-box .release-item .state {
+    width: 1.36rem;
   }
   .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-navs {
-    border-bottom: 1px solid #20285e;
-    height: 40px;
+    height: 0.54rem;
   }
   .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-navs .receive-tab {
     float: left;
-    width: 200px;
+    width: 2.08rem;
     height: 100%;
-    line-height: 40px;
+    line-height: 0.55rem;
   }
   .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-navs .receive-tab1 {
     text-align: right;
+    margin-left: 0.45rem;
   }
   .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-navs .receive-tab2 {
-    width: 170px;
     text-align: center;
   }
-  .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-navs .receive-tab3 {
-    width: 150px;
-  }
   .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-box {
-    height: 401px;
+    height: 4.95rem;
     overflow-y: scroll;
   }
   .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-box .receive-item {
-    height: 40px;
+    height: 0.8rem;
     border-bottom: 1px solid #20285e;
   }
   .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-box .receive-item img {
     float: left;
     vertical-align: middle;
-    width: 24px;
-    height: 24px;
-    margin-left: 12px;
-    margin-top: 8px;
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-left: 0.18rem;
+    margin-top: 0.2rem;
   }
   .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-box .receive-item div {
     float: left;
     height: 100%;
     line-height: 40px;
+    text-align: right;
   }
   .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-box .receive-item .receive-order-price {
-    width: 165px;
+    width: 1.96rem;
     text-align: right;
   }
   .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-box .receive-item .receive-price {
     text-align: right;
-    width: 105px;
+    width: 1.5rem;
   }
   .list-content .content-wrap .list .list-item-receive-history .item-bottom .receive-box .receive-item .receive-time {
-    width: 120px;
-    margin-left: 65px;
+    width: 2.25rem;
+    margin-left: 0;
     color: #05e0e2;
   }
 }

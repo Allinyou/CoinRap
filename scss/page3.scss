@@ -299,6 +299,7 @@
                     }
                     .item-bottom{
                         height: 5.5rem;
+                        font-size:0.28rem;
                         .bottom-item{
                             padding:0.12rem 0;
                             height: 1.74rem;
@@ -358,7 +359,7 @@
                                 float: left;
                                 width: 1.28rem;
                                 height: 100%;
-                                line-height: 0.54rem;
+                                line-height: 0.55rem;
                                 text-align: center;
                             }
                             .tab1{
@@ -375,39 +376,39 @@
                                 img{
                                     float: left;
                                     vertical-align: middle;
-                                    width: 0.28rem;
-                                    height: 0.28rem;
+                                    width: 0.4rem;
+                                    height: 0.4rem;
                                     margin-left:0.18rem;
-                                    margin-top:0.26rem;
+                                    margin-top:0.2rem;
                                 }
                                 div{
-                                    padding-top:0.16rem;
+                                    padding-top:0.1rem;
                                 }
                                 .goal{
-                                    width: 1.2rem;
+                                    width: 1.1rem;
                                     color:#05e0e2;
-                                    // span:last-child{
-                                    //     margin-top:5px;
-                                    // }
+                                    span:last-child{
+                                        margin-top:0;
+                                    }
                                 }
                                 .order-total-price{
-                                    width: 1rem;
-                                    // span:last-child{
-                                    //     margin-top:5px;
-                                    // }
+                                    width: 1.3rem;
+                                    span:last-child{
+                                        margin-top:0;
+                                    }
                                 }
                                 .price{
-                                    width: 90px;
+                                    width: 1.1rem;
                                 }
                                 .service-price{
-                                    width: 90px;
+                                    width: 1.14rem;
                                     color:#05e0e2;
-                                    // span:last-child{
-                                    //     margin-top:5px;
-                                    // }
+                                    span:last-child{
+                                        margin-top:0;
+                                    }
                                 }
                                 .state{
-                                    width: 98px;
+                                    width: 1.36rem;
                                 }
                             }
                         }
@@ -415,57 +416,57 @@
                 }
                 .list-item-receive-history{
                     .item-bottom{
-                        background-color: #283176;
                         .receive-navs{
-                            border-bottom:1px solid #20285e;
-                            height: 40px;
+                            height: 0.54rem;
                             .receive-tab{
                                 float: left;
-                                width: 200px;
+                                width: 2.08rem;
                                 height: 100%;
-                                line-height: 40px;   
+                                line-height: 0.55rem;  
                             }
                             .receive-tab1{
                                 text-align: right;
+                                margin-left: 0.45rem;
                             }
                             .receive-tab2{
-                                width:170px;
+                                // width:170px;
                                 text-align: center;
                             }
                             .receive-tab3{
-                                width: 150px;
+                                // width: 150px;
                             }
                         }
                         .receive-box{
-                            height: 401px;
+                            height: 4.95rem;
                             overflow-y: scroll;
                             .receive-item{
-                                height: 40px;
+                                height: 0.8rem;
                                 border-bottom:1px solid #20285e;
                                 img{
                                     float: left;
                                     vertical-align: middle;
-                                    width: 24px;
-                                    height: 24px;
-                                    margin-left:12px;
-                                    margin-top:8px;
+                                    width: 0.4rem;
+                                    height: 0.4rem;
+                                    margin-left:0.18rem;
+                                    margin-top:0.2rem;
                                 }
                                 div{
                                     float: left;
                                     height: 100%;
                                     line-height: 40px;
+                                    text-align: right;
                                 }
                                 .receive-order-price{
-                                    width: 165px;
+                                    width: 1.96rem;
                                     text-align: right;
                                 }
                                 .receive-price{
                                     text-align: right;
-                                    width: 105px;
+                                    width: 1.5rem;
                                 }
                                 .receive-time{
-                                    width: 120px;
-                                    margin-left:65px;
+                                    width: 2.25rem;
+                                    margin-left:0;
                                     color:#05e0e2;
                                 }
                             }
