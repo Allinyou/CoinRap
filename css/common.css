@@ -233,6 +233,7 @@ header.channel {
     justify-content: space-between;
     display: flex;
     align-items: center;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
   }
   .h5-slide .slide-box .exit div {
     height: 100%;
