@@ -256,18 +256,13 @@
 } 
 
 @media screen and (max-width:480px){
-    .navWidth{
-        display: none;
-    }
-    .footer{
-        display: none;
-    }
     .list-content{
         height: auto;
         padding:0 0.35rem;
         .content-wrap{
             width: 100%;
             .btns-wrap{
+                padding-top:0.4rem;
                 .buy,.sell{
                     width: 50%;
                     height: 0.9rem;

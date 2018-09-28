@@ -299,18 +299,15 @@
 }
 
 @media screen and (max-width: 480px) {
-  .navWidth {
-    display: none;
-  }
-  .footer {
-    display: none;
-  }
   .list-content {
     height: auto;
     padding: 0 0.35rem;
   }
   .list-content .content-wrap {
     width: 100%;
+  }
+  .list-content .content-wrap .btns-wrap {
+    padding-top: 0.4rem;
   }
   .list-content .content-wrap .btns-wrap .buy, .list-content .content-wrap .btns-wrap .sell {
     width: 50%;

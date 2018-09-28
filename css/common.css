@@ -104,6 +104,10 @@ header .currentPage {
   width: 780px;
 }
 
+.option-h5 {
+  display: none;
+}
+
 /*底部样式*/
 .footer {
   width: 100%;
@@ -134,6 +138,129 @@ header.channel {
 @media screen and (max-width: 480px) {
   body {
     font-size: 0.28rem;
+  }
+  header {
+    height: 1rem;
+    padding: 0 0.2rem;
+  }
+  .navWidth {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 1rem;
+    position: relative;
+  }
+  .logoImg {
+    float: left;
+    display: block;
+    width: 2.6rem;
+    height: 100%;
+    background: url(../img/global/logo.png) no-repeat left center/100% auto;
+  }
+  .logoImg a {
+    width: 100%;
+    height: 100%;
+  }
+  .changeImg {
+    display: none;
+  }
+  .navHeight {
+    display: none;
+  }
+  .option-h5 {
+    display: flex;
+    float: right;
+    width: 2.5rem;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .option-h5 img {
+    width: 0.4rem;
+  }
+  .option-h5 .menu {
+    margin-left: 0.38rem;
+  }
+  .option-h5 .menu span {
+    display: block;
+    width: 0.4rem;
+    height: 2px;
+    background-color: #fff;
+  }
+  .option-h5 .menu span:nth-child(2) {
+    margin: 5px 0;
+  }
+  .h5-slide {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    transition: left 0.2s linear;
+  }
+  .h5-slide.active {
+    left: 0;
+  }
+  .h5-slide .slide-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 6.3rem;
+    height: 100%;
+    background-color: #131830;
+    color: #fff;
+  }
+  .h5-slide .slide-box .select-box .select-item {
+    padding: 0 0.4rem;
+    height: 1rem;
+    border-bottom: 1px solid #1d2451;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .h5-slide .slide-box .select-box .select-item.active {
+    background-color: #1d2451;
+    color: #00bdf5;
+  }
+  .h5-slide .slide-box .select-box .select-item img {
+    width: 0.16rem;
+  }
+  .h5-slide .slide-box .exit {
+    padding: 0 0.4rem;
+    height: 1rem;
+    border-top: 4px solid #1d2451;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+  .h5-slide .slide-box .exit div {
+    height: 100%;
+    line-height: 1rem;
+  }
+  .h5-slide .slide-box .exit div span {
+    color: #2d73ef;
+  }
+  /*底部样式*/
+  .footer {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #202A39;
+    font-size: 12px;
+    color: #FFFFFF;
+  }
+  /*导航*/
+  header.channel {
+    background: url(../img/channel/bg-nav-channel.png) top center #131830;
+  }
+  /*折叠菜单展开按钮*/
+  .show {
+    background: url(../img/nav/btn-nav-hover.png) no-repeat center;
+  }
+  .footer {
+    display: none;
   }
   .list-content {
     padding-top: 0;

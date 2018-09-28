@@ -24,6 +24,14 @@
                 <a href="contactUs.html">联系</a>
                 <a href="help.html">帮助</a>
             </div>
+            <div class="option-h5">
+                <img src="img/page3/lingdang.png" alt="">
+                <div class="menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
         </div>
     </header>
     <!-- 内容区域 -->
@@ -475,6 +483,44 @@
                 </div>
             </div>
     </section>
+    <section class="h5-slide">
+        <div class="slide-box">
+            <div class="select-box">
+                <div class="select-item">
+                    <span>RapSwap</span>
+                    <img src="img/page3/next.png" alt="">
+                </div>
+                <div class="select-item active">
+                    <span>RapC2C</span>
+                    <img src="img/page3/next.png" alt="">
+                </div>
+                <div class="select-item">
+                    <span>白皮书</span>
+                    <img src="img/page3/next.png" alt="">
+                </div>
+                <div class="select-item">
+                    <span>关于</span>
+                    <img src="img/page3/next.png" alt="">
+                </div>
+                <div class="select-item">
+                    <span>社区</span>
+                    <img src="img/page3/next.png" alt="">
+                </div>
+                <div class="select-item">
+                    <span>联系</span>
+                    <img src="img/page3/next.png" alt="">
+                </div>
+                <div class="select-item">
+                    <span>帮助</span>
+                    <img src="img/page3/next.png" alt="">
+                </div>
+            </div>
+            <div class="exit">
+                <div class="pos">您的地址：0x243c01...773dec</div>
+                <div class="exit-btn">[ <span>退出</span> ]</div>
+            </div>
+        </div>
+    </section>
     <!-- 底部 -->
     <div class="footer">
         Copyright © 2013-2018 iFinex Inc. All rights reserved.
@@ -483,3 +529,17 @@
 </body>
 
 </html>
+<script>
+var menuBtn = document.querySelector('.option-h5 .menu');
+var h5Slide = document.querySelector('.h5-slide');
+var slideBox = document.querySelector('.h5-slide .slide-box');
+menuBtn.onclick = function () {
+    h5Slide.classList.add('active');
+}
+h5Slide.onclick = function () {
+    h5Slide.classList.remove('active');
+}
+slideBox.onclick = function(e) {
+    e.stopPropagation();
+}
+</script>
