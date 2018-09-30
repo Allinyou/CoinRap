@@ -9,7 +9,7 @@
 }
 
 .buy-content {
-  height: 1140px;
+  /*height: 1140px;*/
 }
 
 .buy-content .buy-wrap {
@@ -18,5 +18,111 @@
 }
 
 .buy-content .buy-wrap .buy-box {
-  height: 842px;
+  /*height: 842px;*/
+  background: #273073;
+  position: relative;
+  padding: 0.1px;
+}
+/*买入样式*/
+.buyCont {
+	margin: 145px 0 0 0;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+.buyCont>li {
+	margin-bottom: 40px;
+}
+.leftFont {
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+}
+.rightFont {
+	display: inline-block;
+}
+.rightFont img {
+	margin: 0 10px 0 0;
+	vertical-align: middle; 
+}
+.middleFont {
+	display: inline-block;
+	color: #00fffc;
+	margin: 0 30px 0 50px;
+	width: 400px;
+}
+.buy-selected {
+	display: inline-block;
+	width: 400px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #8c94d2;
+	position: relative;
+	margin: 0 30px 0 50px;
+	padding: 0 30px;
+	background: #273073;
+}
+.optionBix {
+	position: absolute;
+	left: 0;
+	/*bottom: 0;*/
+	display: none;
+	width: 400px;
+	padding: 0 30px;
+}
+.rightTips {
+	position: absolute;
+	right: 0;
+	width: 75px;
+	height: 38px;
+	text-align: center;
+	background: #242c68;
+	color: #FFFFFF;
+}
+.inputBox {
+	width: 290px;
+	height: 30px;
+	background: #273073;
+	color: #FFFFFF;
+}
+.fontColor {
+	color: #00fffc;
+}
+.bugTips {
+	margin: 10px 0 0 260px;;
+}
+.middleFont img {
+	vertical-align: middle;
+}
+/*高级选项*/
+.seniorBox {
+	width: 1100px;
+	height: 450px;
+	background-color: #1a2048;
+	border: solid 3px #293279;
+	/*display: none;*/
+}
+.seniorList {
+	margin: 40px 0;
+}
+.seniorList .senMiddleR {
+	margin-right: 0;
+}
+.seniorList .senMiddleL {
+	margin: 0;
+}
+.hiddenInp {
+	display: none;
+	position: relative;
+}
+.middleFont li {
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid #8c94d2;
+	background: #273073;
+	display: inline-block;
+}
+.seniorList .middleFont {
+	vertical-align: middle;
 }

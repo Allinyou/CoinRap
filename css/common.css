@@ -1,17 +1,14 @@
 @charset "UTF-8";
-body, form, input, textarea, select, option, ul,
+body, div, form, input, textarea, select, option, ul,
 ol, li, dt, dd, p, pre, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  box-sizing: border-box;
 }
 
 img {
   border: none;
-}
-
-a {
-  text-decoration: none;
 }
 
 input {
@@ -28,10 +25,6 @@ body {
   font-size: 16px;
   background-color: #fcfcfc;
   color: #333;
-}
-
-ul, li {
-  list-style: none;
 }
 
 a {
@@ -51,6 +44,11 @@ a {
 header {
   height: 100px;
   background: #131830;
+}
+nav{
+	width: 100%;
+	height: 100px;
+	background:#131830;
 }
 
 .navWidth {
@@ -104,8 +102,126 @@ header .currentPage {
   width: 780px;
 }
 
+.navHeight span {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.navHeight .exitBtn {
+  color: #2D73EF;
+}
+
+.navBtn {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.msgImg {
+  background: url(../img/nav/btn-msg-normal.png) no-repeat center;
+}
+
+.msgImgNew {
+  background: url(../img/nav/btn-msg-new.png) no-repeat center;
+}
+
+.menu {
+  background: url(../img/nav/btn-nav-normal.png) no-repeat center;
+}
+
+.subNav {
+  position: absolute;
+  width: 200px;
+  height: 220px;
+  top: 80px;
+  right: 0;
+  display: none;
+}
+
+.subNav li {
+  height: 44px;
+  background: #182445;
+  font-size: 16px;
+  color: #75849C;
+  text-align: left;
+  padding-left: 30px;
+  line-height: 44px;
+  border-bottom: 1px solid #29345A;
+}
+
+.subNav li:hover {
+  background: #375893;
+  color: #FFFFFF;
+}
+
+/*主背景*/
+.mainBg {
+  width: 100%;
+  background: url(../img/common/bg-main.png) no-repeat top center #161f3e;
+  background-size: 100%;
+  padding: 0.1px;
+}
+
+.subMainBox {
+  margin: 40px auto;
+  width: 1100px;
+}
+
+/*关闭按钮样式*/
+.closeBtn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 15px;
+  right: 15px;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #182445;
+  border-radius: 4px;
+}
+
+.closeBtn img {
+  width: 23px;
+  height: 23px;
+  vertical-align: middle;
+}
+
+/*买入卖出分享样式*/
+.smallCommonBg {
+  font-size: 24px;
+  color: #ffffff;
+  position: absolute;
+  top: 10px;
+  left: -5px;
+  width: 124px;
+  height: 72px;
+  background: url(../img/common/sharebg.png) no-repeat center;
+  background-size: 124px 72px;
+  line-height: 60px;
+  text-align: center;
+}
+
 .option-h5 {
   display: none;
+}
+
+/*导航*/
+header.channel {
+  background: url(../img/channel/bg-nav-channel.png) top center #131830;
+}
+
+/*折叠菜单展开按钮*/
+.show {
+  background: url(../img/nav/btn-nav-hover.png) no-repeat center;
+}
+
+.list-content, .buy-content {
+  padding-top: 40px;
+  position: relative;
+  background: #161b39 url(../img/common/bg-main.png) no-repeat top center;
+  background-size: 100%;
 }
 
 /*底部样式*/
